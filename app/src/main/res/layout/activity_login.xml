@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Login">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Account"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        >
+
+    </TextView>
+    <EditText
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/buttom_2"
+        android:id="@+id/Email_Log"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Email"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="20dp"
+
+        >
+
+    </EditText>
+    <EditText
+        android:layout_below="@+id/Email_Log"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/buttom_2"
+        android:id="@+id/Password_Log"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Password"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="20dp"
+
+        >
+
+    </EditText>
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_4"
+        android:layout_below="@+id/Password_Log"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Login"
+
+        >
+
+    </Button>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password? Recover it."
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_below="@id/Login"
+        android:id="@+id/recoverPassword"
+
+        >
+
+    </TextView>
+
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/googleLOgin"
+        >
+
+    </com.google.android.gms.common.SignInButton>
+</RelativeLayout>

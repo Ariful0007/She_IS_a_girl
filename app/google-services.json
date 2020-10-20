@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "470115679594",
+    "firebase_url": "https://sheisagirl-1e248.firebaseio.com",
+    "project_id": "sheisagirl-1e248",
+    "storage_bucket": "sheisagirl-1e248.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470115679594:android:d810e093194416ef273913",
+        "android_client_info": {
+          "package_name": "com.example.she_is_a_girl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470115679594-hg9hlrihtttc91hp2uhe0srvteaitvp6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.she_is_a_girl",
+            "certificate_hash": "918c8da5ffeb6fcfa9801a51051c5937feed1b0f"
+          }
+        },
+        {
+          "client_id": "470115679594-d6ivbtheiahsj37gveineu74esn0mio3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0BFzmULmn8z4nwkn7uJ1Cm5rxoya7bvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470115679594-d6ivbtheiahsj37gveineu74esn0mio3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

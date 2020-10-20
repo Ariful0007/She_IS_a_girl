@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasicActivity2">
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:src="@drawable/firebase_image"
+    android:layout_marginTop="20dp"
+    app:civ_border_color="#000"
+    app:civ_border_width="5dp"
+    android:id="@+id/basic_image"
+    >
+
+</de.hdodenhof.circleimageview.CircleImageView>
+    <Button
+        android:id="@+id/conform"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_4"
+        android:layout_below="@+id/basic_image"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Register"
+        >
+
+    </Button>
+    <Button
+        android:id="@+id/conform1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_4"
+        android:layout_below="@+id/conform"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Login"
+        >
+
+    </Button>
+
+</RelativeLayout>

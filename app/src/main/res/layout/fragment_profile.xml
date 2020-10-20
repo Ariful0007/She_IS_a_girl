@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/coverImage"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:background="@color/colorPrimaryDark"
+                >
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="100dp"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/avater"
+                    android:src="@drawable/ic_baseline_face_24"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/colorPrimary"
+                    android:padding="5dp"
+                    android:layout_marginTop="0dp"
+                    >
+
+                </ImageView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/avater_1"
+                        android:text="Name"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:layout_marginStart="5dp"
+
+                        android:layout_marginLeft="5dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/avater_2"
+                        android:text="Email"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_marginStart="5dp"
+
+                        android:layout_marginLeft="5dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/avater_3"
+                        android:text="Phone Number"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/ic_baseline_edit_24"
+        android:layout_alignParentRight="true">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</RelativeLayout>

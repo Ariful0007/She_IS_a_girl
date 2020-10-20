@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/filr_path"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/telemedicine_f"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="20dp"
+        app:civ_border_color="#fff"
+        app:civ_border_width="5dp"
+        >
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/image"
+        android:text="Amader Doctor"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:id="@+id/text">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/text"
+        android:text="24/7 Hours Telemedicine Service"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:id="@+id/text2">
+
+    </TextView>
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/button"
+        android:layout_below="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="60dp"
+        android:text="Go To Menu"
+        android:textColor="@color/gray"
+        app:sub_btn_background="@color/white"
+        app:sub_btn_duration="500"
+        app:sub_btn_line_color="#009688"
+        app:sub_btn_ripple_color="#009688"
+        app:sub_btn_tick_color="@color/white" />
+
+
+</RelativeLayout>
